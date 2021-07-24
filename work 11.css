@@ -1,0 +1,417 @@
+/* start glopal  */
+:root {
+    --main_padding : 50px;
+}
+body {
+    font-family:'Raleway';
+    color: white;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: hsl(218, 28%, 13%);
+}
+a {
+    text-decoration:none;
+    color: rgba(255, 255, 255, 0.76);
+}
+p,span {
+    color: rgba(255, 255, 255, 0.76);
+}
+a,li,button,input,img {
+    transition: all .1s linear
+}
+/* end glopal  */
+/* start one  */
+.one {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  hsl(217, 28%, 15%);
+    background-image: url(images/bg-curvy-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: var(--main_padding);
+    text-align: center
+}
+.inf {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.inf img {
+    width: 100px;
+    height: 30px
+}
+.inf ul {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.one>img {
+    width: 60%
+}
+.one h2 {
+ width: 60%;
+}
+.one p {
+    width: 50%;
+}
+.one button {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: hsl(176, 68%, 64%);
+    border-top-right-radius: 10% 80% ;
+    border-top-left-radius: 10% 80%;
+    border-bottom-right-radius: 10% 80%;
+    border-bottom-left-radius: 10% 80%;
+}
+ /* end one  */
+ /* start two  */
+ .two {
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin:  auto;
+}
+.two div {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.two img {
+    width:  50px;
+}
+/* end two  */
+/* start three  */
+.three {
+    display: flex;
+    justify-content: space-evenly;
+    padding: var(--main_padding);
+    align-items: center;
+}
+.three>img,div {
+    width: 45%
+}
+/* end three  */
+/* start four  */
+.four {
+    display: flex;
+    padding: var(--main_padding);
+    justify-content: space-between;
+    background-image: url(images/bg-quotes.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 6% 6%;
+    
+
+}
+.four div {
+    width: calc((100% - 120px)/3);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+}
+.four p {
+    width: 100%;
+}
+.four img {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+.four h4{
+    font-size: smaller;
+    margin: 0 10px;
+}
+.four h4 span {
+    display: block;
+    font-size: xx-small;
+    font-weight: normal;
+}
+/* end four  */
+/* start form */
+form {
+    width: 70%;
+    margin: 50px auto;
+    background-color:  hsl(217, 28%, 15%);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+form p {
+    width: 70%;
+    margin: 10px auto;
+}
+form input {
+    border-top-right-radius: 10% 80% ;
+    border-top-left-radius: 10% 80%;
+    border-bottom-right-radius: 10% 80%;
+    border-bottom-left-radius: 10% 80%; 
+    border: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+form input:first-of-type {
+    width: 50%;
+    outline: none;
+}
+form input:last-of-type{
+    width: 30%;
+    color: white;
+    background-color: hsl(176, 68%, 64%)
+}
+/* end form  */
+/* satrt six  */
+.six {
+    display: flex;
+    flex-direction: column;
+    padding: var(--main_padding);
+    font-size: smaller;
+    width: fit-content;
+    margin: auto;
+}
+.six>img {
+    width: 100px;
+    height: 30px
+}
+.six .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.bottom .contacts {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 5;
+}
+.contacts div {
+    display: flex;
+    align-items: baseline;
+    width: 130px;
+    flex-wrap: wrap;
+}
+.contacts div:first-of-type{
+    width: 250px;
+    flex-wrap: nowrap;
+}
+.contacts div img {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+.links{
+    width: 130px;
+}
+.links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    height: 130px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.links ul li {
+    padding: 7px;
+}
+.wepsites {
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+}
+/* end six  */
+/* start hover  */
+.inf li:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+button:hover {
+    background-color: rgb(125, 255, 242);
+    transform: scale(1.03);
+}
+.sup:hover {
+    background-color: rgb(125, 255, 242);
+    transform: scale(1.03);
+}
+.three a:hover {
+    border-bottom: 1px solid white;
+} 
+.three a:hover img {
+    filter: grayscale(1);
+}
+.six a:hover {
+    color: white;
+    font-weight: bold;
+} 
+/* end hover  */
+/* start media  */
+@media (max-width: 700px) {
+    /* start global  */
+    :root {
+        --mop_padding: 10px;
+        --big_width: 100%;
+        --inerr_width: 90%;
+        --sup_inerr_width: 70% 
+    } 
+    body{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    section {
+        margin: 50px 0;
+    }
+    /* end global  */
+    /* start one  */
+    .one {
+        width: var(--big_width);
+        padding: 0;
+        background-image: url(images/bg-curvy-mobile.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        margin: 0
+    }
+    .inf ul {
+        width: 50%;
+    }
+    .one div  {
+        width: var(--inerr_width);    
+    }
+    .one>img  {
+        width: var(--inerr_width);    
+    }
+    .one h2  {
+        width: var(--inerr_width);    
+    }
+    .one p {
+        width: var(--inerr_width);    
+    }
+    .one button {
+        width: var(--sup_inerr_width);
+    }
+    /* end one  */
+    /* start two  */
+    .two {
+        width: var(--big_width);
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .two div {
+        width: var(--inerr_width);
+        margin: var(--main_padding) auto;
+    }
+    /* end two  */
+    /* start three  */
+    .three {
+        width: var(--big_width);
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: space-between;
+        padding: 0;
+    }
+    .three>img {
+        width: var(--sup_inerr_width);
+    }
+    .three div {
+        width: var(--inerr_width);
+        margin: var(--mop_padding) auto;
+    }
+    .three a {
+        color: hsl(176, 68%, 64%);
+        border-bottom: 1px solid hsl(176, 68%, 64%);
+    }
+    /* end three  */
+    /* start four  */
+    .four {
+        width: var(--big_width);
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 0;
+        background-position: 2% -1%;
+        background-size: 42px;
+    }
+    .four div {
+        width: var(--sup_inerr_width);
+        margin: var(--mop_padding) auto;
+    }
+    /* end four  */
+    /* start form  */
+    form {
+        width: var(--inerr_width);
+        padding: 0;
+        margin: 50px 0; 
+    }
+    form input:first-of-type {
+        width: var(--inerr_width);
+        margin: 15px 0;
+    }
+    form input:last-of-type {
+        width: var(--inerr_width);
+    }
+    form p {
+        width: var(--sup_inerr_width);
+    }
+   /* start six  */
+    .six {
+        width: var(--inerr_width);
+        padding: 0;
+        margin: 10px 0 0;
+        
+    }
+    .six div{
+        width: var(--inerr_width);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+    } 
+    .six div div {
+        width: var(--sup_inerr_width);
+    }
+    .six ul {
+        height: auto;
+    }
+    .six ul li:nth-of-type(5) {
+        margin-top: 30px;
+    }
+    .six .bottom .wepsites {
+        width: 100%;
+        justify-content: center;
+    }
+    .wepsites a {
+        padding: 0 10px;
+    }
+    /* end six  */
+}
+
+
